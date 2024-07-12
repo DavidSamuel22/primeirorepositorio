@@ -1,11 +1,20 @@
 algoritmo "tabuada"
+
 var
-numero, i: inteiro
+
+numero, resultado: inteiro
+
+i:inteiro
+
 inicio
-escreva("digite um numero para ver sua tabuada: ")
+
+escreva("digite um numero para sua tabuada: ")
+
 leia(numero)
+
 para i de 1 ate 10 faca
-escreva(numero, "x", i, "=", numero * i)
-escreva()
+
+resultado <- numero * i
+escreval(numero, " x ", i, " = " , resultado)
 fimpara
 fimalgoritmo
